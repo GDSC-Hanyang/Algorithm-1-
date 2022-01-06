@@ -147,3 +147,16 @@ sum(iterable, start = 0)
     —> iterable의 합 + start 값
 </pre>
 </code>
+
+pop
+===
+
+리스트의 가장 마지막 요소를 돌려주고 리스트 내에서는 그 요소를 삭제
+<pre>
+<code>
+a = [1,2,3]
+a.pop(1)
+    —> 2
+    —> a = [1,3]
+</pre>
+</code>
