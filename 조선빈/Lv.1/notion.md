@@ -147,3 +147,32 @@ sum(iterable, start = 0)
     —> iterable의 합 + start 값
 </pre>
 </code>
+
+pop
+===
+
+리스트의 가장 마지막 요소를 돌려주고 리스트 내에서는 그 요소를 삭제
+<pre>
+<code>
+a = [1,2,3]
+a.pop()
+    —> 3
+    —> a = [1,2]
+a.pop(1)
+    —> 2
+    —> a = [1]
+</pre>
+</code>
+
+dictionary
+==========
+
+대응하는 자료형 저장
+<pre>
+<code>
+dic = {Key1:Value1, Key2:Value2, Key3:Value3, ...}
+dic[KeyN] = 'ValueN'
+    —> dic = {Key1:Value1, Key2:Value2, Key3:Value3, ... , KeyN:ValueN}
+</pre>
+</code>
+
