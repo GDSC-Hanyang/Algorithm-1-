@@ -11,4 +11,4 @@ def solution(board, moves):
             box.pop()
             box.pop()
             answer += 2
-return answer
+    return answer
