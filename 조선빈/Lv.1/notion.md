@@ -163,3 +163,16 @@ a.pop(1)
     —> a = [1]
 </pre>
 </code>
+
+dictionary
+==========
+
+대응하는 자료형 저장
+<pre>
+<code>
+dic = {Key1:Value1, Key2:Value2, Key3:Value3, ...}
+dic[KeyN] = 'ValueN'
+    —> dic = {Key1:Value1, Key2:Value2, Key3:Value3, ... , KeyN:ValueN}
+</pre>
+</code>
+
