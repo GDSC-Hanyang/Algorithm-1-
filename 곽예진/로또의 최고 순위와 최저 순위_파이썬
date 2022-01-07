@@ -64,6 +64,3 @@ def solution(lottos,win_nums):
     answer=[max_grade,min_grade]
     
     return answer
-    
-sol= solution(lottos,win_nums)
-print(sol)
