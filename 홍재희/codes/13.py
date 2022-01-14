@@ -1,5 +1,5 @@
 # 체육복
-# 2021-01-13
+# 2022-01-13
 # https://programmers.co.kr/learn/courses/30/lessons/42862
 
 def solution(n, lost, reserve):
