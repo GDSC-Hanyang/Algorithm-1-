@@ -30,5 +30,12 @@
 > ✅ [숫자 문자열과 영단어](https://github.com/Google-Developer-Student-Club-Hanyang/Algorithm/tree/master/설유민/Lv.1/81301-숫자%20문자열과%20영단어)
 > 
 > ✅ [키패드 누르기](https://github.com/Google-Developer-Student-Club-Hanyang/Algorithm/tree/master/설유민/Lv.1/67256-키패드%20누르기)
+> 
+> ✅ [크레인 인형뽑기 게임](https://github.com/Google-Developer-Student-Club-Hanyang/Algorithm/tree/master/설유민/Lv.1/64061-크레인%20인형뽑기%20게임)
+> 
+> ✅ [없는 숫자 더하기](https://github.com/Google-Developer-Student-Club-Hanyang/Algorithm/tree/master/설유민/Lv.1/86051-없는%20숫자%20더하기)
+> 
+> ✅ [음양 더하기](https://github.com/Google-Developer-Student-Club-Hanyang/Algorithm/tree/master/설유민/Lv.1/76501-음양%20더하기)
+
 
 <div style="color: gray" align=center>@4-002602</div>
