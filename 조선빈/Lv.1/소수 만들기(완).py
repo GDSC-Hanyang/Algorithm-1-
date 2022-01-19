@@ -15,7 +15,8 @@ def solution(nums):
     for p in range(0,len(numList)):
         cnt = 0
         List = []
-        for l in range(1,1001):
+        for l in range(1,3001):
+  # 수들이 최대 1000까지라고 했으므로 합은 3000까지,, 따라서 나누는 수가 3000까지 되어야 모두 판별할 수 있음
             if numList[p]%l == 0:
                 cnt += 1
                 List.append(l)
