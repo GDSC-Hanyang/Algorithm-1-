@@ -37,9 +37,10 @@ def solution(n): return list(map(int,list(str(n))[::-1]))
 
 | RANK  | SCORE | SOLVED |
 | :---- | ----- | ------ |
-| 14885 | 1232  | 57     |
+| 14121 | 1241  | 63     |
 
-현재 Lv1 문제를 마무리 하는 중이고, Lv2 문제를 풀기 시작하고 있습니다.
+Lv1 : FIN 
+Lv2 : 진행 중
 
 
 
