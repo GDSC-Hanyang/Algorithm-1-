@@ -187,3 +187,34 @@ divmod
 </code>
 </pre>
 
+set
+===
+
+리스트 순서대로 + 중복되는 아이템 제거
+<pre>
+<code>
+a = [5,3,4,1,2,2]
+b = set(a)
+    —> [1,2,3,4,5]
+</code>
+</pre>
+
+sort
+====
+
+리스트 순서대로
+—> 기본값 : 오름차순
+—> reverse = True : 내림차순
+—> key = len : 원소 길이순
+—> key = 옵션
+<pre>
+<code>
+a = [5,3,4,1,2,2]
+b = a.sort()
+    —> [1,2,2,3,4,5]
+c = a.sort(reverse = True)
+    —> [5,4,3,2,2,1]
+d = sorted(a)
+    —> [1,2,2,3,4,5]
+</code>
+</pre>
