@@ -203,10 +203,10 @@ sort
 ====
 
 리스트 순서대로
-—> 기본값 : 오름차순
-—> reverse = True : 내림차순
-—> key = len : 원소 길이순
-—> key = 옵션
+// 기본값 : 오름차순
+// reverse = True : 내림차순
+// key = len : 원소 길이순
+// key = 옵션
 <pre>
 <code>
 a = [5,3,4,1,2,2]
