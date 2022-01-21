@@ -176,3 +176,14 @@ dic[KeyN] = 'ValueN'
 </pre>
 </code>
 
+divmod
+======
+
+몫과 나머지
+작은 수일 때는 a//b와 a%b가 더 빠름
+<pre>
+<code>
+몫, 나머지 = divmod(a,b)
+</code>
+</pre>
+
