@@ -3,4 +3,4 @@ def solution(s):
   for key,value in dic.items():
     s=s.replace(key,value)
     answer=s
-    return answer
+  return answer
