@@ -2,5 +2,5 @@ dic = {'zero':'0','one':'1','two':'2','three':'3','four':'4','five':'5','six':'6
 def solution(s):
   for key,value in dic.items():
     s=s.replace(key,value)
-    answer=s
+    answer=int(s)
   return answer
