@@ -16,10 +16,12 @@ def solution(numbers, hand):
             usehand='R'
             right_now=i
         else:
-            if decide[i][left_now] > decide[i][right_now]:
+            a= decide[i][left_now]
+            b= decide[i][right_now]
+            if  int(a) > int(b) :
                 usehand='R'
                 right_now=i
-            elif int(decide[i][left_now]) < int(decide[i][right_now]):
+            elif int(a) < int(b):
                 usehand='L'
                 left_now=i
             else:
