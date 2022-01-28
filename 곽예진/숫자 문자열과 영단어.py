@@ -1,3 +1,5 @@
+#https://programmers.co.kr/learn/courses/30/lessons/81301
+
 dic = {'zero':'0','one':'1','two':'2','three':'3','four':'4','five':'5','six':'6','seven':'7','eight':'8','nine':'9'} 
 
 def solution(s):
@@ -5,6 +7,9 @@ def solution(s):
     s=s.replace(key,value)
     answer=int(s)
   return answer
+
+
+
 
 #딕셔너리는{key:value}형태로 이루어짐
 #딕셔너리에서 key 값은 변하지 않는 형태이어야 한다.
