@@ -218,3 +218,14 @@ d = sorted(a)
     —> [1,2,2,3,4,5]
 </code>
 </pre>
+
+int(string, base)
+=================
+
+base진법을 10진법으로 변환
+<pre>
+<code>
+int(11,2)
+    —> 1011
+</code>
+</pre>
