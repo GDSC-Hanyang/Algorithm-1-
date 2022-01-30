@@ -1,5 +1,6 @@
 #내적
 #https://programmers.co.kr/learn/courses/30/lessons/70128
+#난이도 하
 
 def solution(a, b):
     sum=0
