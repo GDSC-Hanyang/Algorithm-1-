@@ -4,6 +4,7 @@
 
 def solution(numbers):
     addsum=0
+    #인덱스 활용하기
     for i in range(10):
         addsum += i
     for k in numbers:
