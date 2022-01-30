@@ -1,0 +1,23 @@
+def solution(n, arr1, arr2):
+    answer = []
+    Barr1 = []
+    Barr2 = []
+    Barr = []
+    
+    for i in range(0,len(arr1)):
+        Barr1.append(bin(arr1[i])[2:])
+        Barr2.append(bin(arr2[i])[2:])
+        Barr1[i] = ('0' * (n-len(Barr1[i]))) + Barr1[i]
+        Barr2[i] = ('0' * (n-len(Barr2[i]))) + Barr2[i]
+    
+        Ans = ''
+        for j in range(n):
+            if Barr1[i][j] == '1' or Barr2[i][j] == '1':
+                Ans += '#'
+            elif Barr1[i][j] == '0' and Barr2[i][j] == '0':
+                Ans += ' '
+        answer.append(Ans)
+        
+    return answer
+    
+    return answer
