@@ -8,3 +8,4 @@ def solution(a, b):
          sum += a[i]*b[i]
     answer=sum
     return answer
+
