@@ -20,3 +20,8 @@ def solution(sizes):
     answer = maxw*maxh
     
     return answer
+
+-----------------------------------------------
+#이렇게도 표현 가능
+def solution(sizes):
+    return max(max(x) for x in sizes) * max(min(x) for x in sizes)
