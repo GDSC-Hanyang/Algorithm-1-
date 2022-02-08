@@ -1,6 +1,6 @@
 #두 정수 사이의 합
 #https://programmers.co.kr/learn/courses/30/lessons/12912
-#난이도 중하
+#난이도 하
 
 def solution(a, b):
     answer = 0
