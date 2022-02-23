@@ -17,14 +17,12 @@ def solution(n):
     
 #[2]방법. 크기비교하면서 한개씩 붙이기-첫번째 시작점이 애매함=>별로
 
-
 # [join함수]
 #리스트에서 요소 더해서 결과 나오는 함수 = "join함수"
 
 ''.join()
 
-#즉, 이렇게 코드를 짤 수도 있음.
-
+#[3]방법. ''.join()이용
 def solution(n):
     answer=[]
     for i in str(int(n)):
