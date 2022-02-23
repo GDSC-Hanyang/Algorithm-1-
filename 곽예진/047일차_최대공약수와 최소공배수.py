@@ -32,3 +32,8 @@ def solution(n, m):
     #최소공배수 구하기
     c_min= n * m / c_max
     return [c_max,c_min]
+
+
+
+
+#유클리드 호제법
