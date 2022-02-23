@@ -22,7 +22,9 @@ def solution(n):
 
 ''.join()
 
+#best
 #[3]방법. ''.join()이용
+
 def solution(n):
     answer=[]
     for i in str(int(n)):
