@@ -230,3 +230,35 @@ int(11,2)
     —> 1011
 </code>
 </pre>
+
+heapq
+=====
+
+이진트리 기반의 min heap (최소 힙) 자료구조를 제공하는 내장 모듈
+원소들이 항상 정렬된 상태로 추가되고 삭제됨
+최솟값은 항상 index 0에 위치
+
+<pre>
+<code>
+heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2]
+
+     1  ---> root
+   /   \
+  3     5
+ / \   /
+4   8 7
+</code>
+</pre>
+
+
+<pre>
+<code>
+import heapq
+
+heap = []
+heapq.heappush(heap, 4) #이진트리에 원소 추가
+heapq.heappop(heap) #힙에서 최솟값 원소 삭제
+heapq.heapify(heap) #리스트를 힙으로 변환
+
+</code>
+</pre>
