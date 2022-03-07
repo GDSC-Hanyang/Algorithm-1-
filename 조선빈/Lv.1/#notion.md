@@ -173,6 +173,7 @@ dictionary
 dic = {Key1:Value1, Key2:Value2, Key3:Value3, ...}
 dic[KeyN] = 'ValueN'
     —> dic = {Key1:Value1, Key2:Value2, Key3:Value3, ... , KeyN:ValueN}
+    -> 새 항목 추가 또는 기존 항목 
 </pre>
 </code>
 
