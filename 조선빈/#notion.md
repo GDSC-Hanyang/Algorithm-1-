@@ -294,11 +294,16 @@ list(nPr) —> [순열들]
 </code>
 </pre>
 
-counter
-=======
+Coounter from collections
+================
 
-각 원소의 중복 개수를 세주는 모듈
+중복이 많이 된 것부터 중복 횟수를 세주는 클래스
 
 <pre>
 <code>
+from collections import Counter
 
+Counter('hello world') 
+    —>Counter({'l': 3, 'o': 2, 'h': 1, 'e': 1, ' ': 1, 'w': 1, 'r': 1, 'd': 1})
+</code>
+</pre>
