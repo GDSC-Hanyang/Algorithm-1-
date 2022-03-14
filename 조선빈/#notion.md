@@ -307,3 +307,32 @@ Counter('hello world')
     —>Counter({'l': 3, 'o': 2, 'h': 1, 'e': 1, ' ': 1, 'w': 1, 'r': 1, 'd': 1})
 </code>
 </pre>
+
+
+deque from collections
+===============
+양방향 큐
+양쪽 (앞, 뒤) 방향에서 element를 추가하거나 제거
+ 
+<pre>
+<code>
+ 
+deque.append(item) : item을 오른쪽 끝에 삽입
+deque.appendleft(item) : item을 왼쪽 끝에 삽입
+deque.pop() : 오른쪽 끝 element를 가져오는 동시에 deque에서 삭제
+deque.popleft() : 왼쪽 끝 element를 가져오는 동시에 deque에서 삭제
+deque.extend(array) : 배열을 순환하면서 deque의 오른쪽에 추가
+deque.extenleft(array) : 배열을 순환하면서 deque의 왼쪽에 추가
+deque.reomove(item) : item을 deque에서 찾아 삭제
+deque.rotate(num) : deque를 num만큼 회전 ( 양수면 오른쪽, 음수면 왼쪽 )
+ 
+deq = deque([1, 2, 3, 4, 5])
+
+deq.rotate(1)
+    —>deque([5, 1, 2, 3, 4])
+
+deq.rotate(-1)
+    —>deque([1, 2, 3, 4, 5])
+    
+</code>
+</pre>
