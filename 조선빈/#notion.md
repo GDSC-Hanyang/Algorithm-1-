@@ -262,3 +262,43 @@ heapq.heapify(heap) #리스트를 힙으로 변환
 
 </code>
 </pre>
+
+
+combinations
+=============
+
+서로 다른 n개 중에서 r개를 취하여 만든 조합
+
+<pre>
+<code>
+import itertools
+
+nCr = itertools.combinations(list, r)
+list(nCr) —> [조합들]
+
+</code>
+</pre>
+
+permutation
+===========
+
+몇 개를 골라 순서를 고려해 나열한 경우의 수를 구하는 순열
+
+<pre>
+<code>
+import itertools
+
+nPr = itertools.permutations(list, 2)
+list(nPr) —> [순열들]
+
+</code>
+</pre>
+
+counter
+=======
+
+각 원소의 중복 개수를 세주는 모듈
+
+<pre>
+<code>
+
