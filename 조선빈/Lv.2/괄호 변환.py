@@ -28,27 +28,16 @@ def solution(p):
 
     if not p:
         return ""
-
-
     u, v = divide(p)
-
-
     if check(u):
-
         return u + solution(v)
-
     else:
-
         answer = '('
-
         answer += solution(v)
-
         answer += ')'
-
         for p in u[1:len(u) - 1]:
             if p == '(':
                 answer += ')'
             else:
                 answer += '('
-
         return answer
