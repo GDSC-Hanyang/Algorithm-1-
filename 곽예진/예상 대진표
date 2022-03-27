@@ -1,0 +1,28 @@
+#예상 대진표
+#https://programmers.co.kr/learn/courses/30/lessons/12985
+
+
+def solution(n,a,b):
+    count=1
+    while (a+1)//2 !=(b+1)//2:
+        if a%2==0: #짝수일때
+            a=a/2
+        else:
+            a=(a+1)/2
+        if b%2==0: #짝수일때
+            b=b/2
+        else:
+            b=(b+1)/2
+        count+=1
+
+    return count
+    
+    
+def solution(n,a,b):
+    count=1
+    while (a+1)//2 !=(b+1)//2:
+        a=(a+1)//2
+        b=(b+1)//2
+        count+=1
+
+    return count
